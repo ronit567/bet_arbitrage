@@ -1,0 +1,20 @@
+bankroll: 50
+total_stake_per_arb: 50
+min_roi_pct: 1.0
+min_stake: 5.0
+max_stake_per_book: 50
+poll_interval_seconds: 60
+sportsbooks:
+  - draftkings
+  - fanduel
+sports:
+  - nba
+  - nfl
+  - mlb
+  - nhl
+  - ncaaf
+  - ncaab
+  - soccer_epl
+  - soccer_uefa_cl
+headless: true
+log_level: INFO

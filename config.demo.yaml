@@ -1,0 +1,13 @@
+bankroll: 50
+total_stake_per_arb: 100
+min_roi_pct: 1.0
+min_stake: 5.0
+max_stake_per_book: 100
+poll_interval_seconds: 60
+sportsbooks:
+  - demo_a
+  - demo_b
+sports:
+  - nba
+headless: true
+log_level: INFO
